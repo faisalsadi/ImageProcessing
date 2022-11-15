@@ -65,31 +65,31 @@ if __name__ == '__main__':
     plt.imshow(nm, cmap='gray', vmin=0, vmax=255)
     plt.title('mapped image')
 
-    # # 6 - check histEqualization function
-    # # calculate the tone mapping that maps im1 to an equalized histogram image
-    # im = cv2.imread(r"Images\darkimage.tif")
-    # im = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
-    # tm_equalization = histEqualization(im)
-    # # to check if we had it correctly
-    # # apply the tone mapping to the image
-    # mappedImage = mapImage(im, tm_equalization)
-    # # plot
-    # plt.figure(6)
-    # # original image
-    # plt.subplot(2, 2, 1)
-    # plt.imshow(im, cmap='gray', vmin=0, vmax=255)
-    # plt.title('before equalization')
-    # # equalized image
-    # plt.subplot(2, 2, 2)
-    # plt.imshow(mappedImage, cmap='gray', vmin=0, vmax=255)
-    # plt.title('after equalization')
-    # # histogram of original image
-    # plt.subplot(2, 2, 3)
-    # plt.plot(histImage(im))
-    # # histogram of equalized image
-    # plt.subplot(2, 2, 4)
-    # plt.plot(histImage(mappedImage))
-    # # Do you see a brighter image and more equalized histogram??
-    # # if not, something is wrong with your equalization function
-    #
+    # 6 - check histEqualization function
+    # calculate the tone mapping that maps im1 to an equalized histogram image
+    im = cv2.imread(r"Images\darkimage.tif")
+    im = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
+    tm_equalization = histEqualization(im)
+    # to check if we had it correctly
+    # apply the tone mapping to the image
+    mappedImage = mapImage(im, tm_equalization)
+    # plot
+    plt.figure(6)
+    # original image
+    plt.subplot(2, 2, 1)
+    plt.imshow(im, cmap='gray', vmin=0, vmax=255)
+    plt.title('before equalization')
+    # equalized image
+    plt.subplot(2, 2, 2)
+    plt.imshow(mappedImage, cmap='gray', vmin=0, vmax=255)
+    plt.title('after equalization')
+    # histogram of original image
+    plt.subplot(2, 2, 3)
+    plt.plot(histImage(im))
+    # histogram of equalized image
+    plt.subplot(2, 2, 4)
+    plt.plot(histImage(mappedImage))
+    # Do you see a brighter image and more equalized histogram??
+    # if not, something is wrong with your equalization function
+
     plt.show()
