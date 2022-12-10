@@ -66,7 +66,7 @@ def trasnform_image(image, T):
             xyw /= xyw[2, 0]
             x = round(xyw[0, 0])
             y = round(xyw[1, 0])
-            if x > n - 1 or x < 0 or y > m - 1 or y < 0:
+            if x > (n - 1) or x < 0 or y > (m - 1) or y < 0:
                 new_image[y_tag, x_tag] = 0
             else:
                 new_image[y_tag, x_tag] = image[y, x]

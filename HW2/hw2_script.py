@@ -8,8 +8,8 @@ if __name__ == '__main__':
     T = find_transform(src_points, dst_points)
     new_image = create_wormhole(im, T, iter=5)
     im2 = np.load('new_image2.npy')
-    # if((im2==new_image).all()):
-    #     print("equal")
+    if((im2==new_image).all()):
+        print("equal")
     plt.figure()
     plt.subplot(1, 2, 1)
     plt.imshow(im, cmap='gray')
