@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ImageProcessing.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/RealLena.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/RealLena.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/barbara.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/barbara.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/barbarasmall.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/barbarasmall.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/binary1.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/binary1.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/binary2.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/binary2.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/binary3.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/binary3.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/cups.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/cups.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/darkimage.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/darkimage.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/flatHistogram.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/flatHistogram.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/fourSquares.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/fourSquares.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/fruit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/fruit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/fruit.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/fruit.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/gaussHistogram.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/gaussHistogram.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/lakeScene.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/lakeScene.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/lena.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/lena.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/lenaBW.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/lenaBW.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/lighthouse.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/lighthouse.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/mountainScene.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/mountainScene.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/racecar.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/racecar.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/random.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/random.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/ricefields.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/ricefields.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/square.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/square.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/stroller.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/stroller.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/tools.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/tools.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/wine.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/wine.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blank_wormhole.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw1_207931536_208336321.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw1_script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw2_207931536_208336321.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw2_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
