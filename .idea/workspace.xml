@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ImageProcessing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/RealLena.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/RealLena.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/barbara.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/barbara.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/barbarasmall.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/barbarasmall.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/binary1.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/binary1.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/binary2.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/binary2.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/binary3.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/binary3.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/cups.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/cups.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/darkimage.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/darkimage.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/flatHistogram.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/flatHistogram.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/fourSquares.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/fourSquares.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/fruit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/fruit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/fruit.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/fruit.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/gaussHistogram.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/gaussHistogram.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/lakeScene.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/lakeScene.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/lena.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/lena.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/lenaBW.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/lenaBW.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/lighthouse.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/lighthouse.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/mountainScene.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/mountainScene.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/racecar.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/racecar.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/random.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/random.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/ricefields.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/ricefields.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/square.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/square.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/stroller.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/stroller.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/tools.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/tools.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/wine.tif" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/Images/wine.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blank_wormhole.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1_207931536_208336321.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2_207931536_208336321.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2_script.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H8U8i5DorGi4PdFwY8p9fk0BJj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AI/AI_LabsFinal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\win10\OneDrive\Desktop\ImageProcessing\HW1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.hw2_script">
+    <configuration name="hw1_207931536_208336321" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ImageProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\win10\OneDrive\Desktop\ImageProcessing\hw1_207931536_208336321.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hw1_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ImageProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\win10\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW1/hw1_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hw1_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ImageProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw1_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hw2_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ImageProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\win10\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW2/hw2_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hw2_script" />
+        <item itemvalue="Python.hw1_script" />
+        <item itemvalue="Python.hw1_script" />
+        <item itemvalue="Python.hw1_207931536_208336321" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="" />
+      <created>1667666046824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667666046824</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
