@@ -39,6 +39,7 @@ def clean_SP_noise_single(im, radius):
 
 def clean_SP_noise_multiple(images):
     # TODO: add implementation
+    clean_image = np.mean(images, axis=0)
     return clean_image
 
 

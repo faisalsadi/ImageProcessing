@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Images/RealLena.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/barbara.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/barbarasmall.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/binary1.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/binary2.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/binary3.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/cups.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/darkimage.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/flatHistogram.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/fourSquares.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/fruit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/fruit.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/gaussHistogram.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/lakeScene.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/lena.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/lenaBW.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/lighthouse.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/mountainScene.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/racecar.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/random.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/ricefields.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/square.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/stroller.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/tools.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/wine.tif" afterDir="false" />
+    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="q1 and q2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw3_207931536_208336321.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3_207931536_208336321.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -173,8 +148,16 @@
       <option name="presentableId" value="Default" />
       <updated>1667666046824</updated>
       <workItem from="1670872381109" duration="3435000" />
-      <workItem from="1670915863052" duration="8114000" />
+      <workItem from="1670915863052" duration="9061000" />
     </task>
+    <task id="LOCAL-00001" summary="q1 and q2">
+      <created>1670932108196</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670932108196</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,9 +174,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="q1 and q2" />
+    <option name="LAST_COMMIT_MESSAGE" value="q1 and q2" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ImageProcessing$hw1_script.coverage" NAME="hw1_script Coverage Results" MODIFIED="1670925554665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1" />
-    <SUITE FILE_PATH="coverage/ImageProcessing$main.coverage" NAME="main Coverage Results" MODIFIED="1670930679828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$main.coverage" NAME="main Coverage Results" MODIFIED="1670934963867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ImageProcessing$hw2_script.coverage" NAME="hw2_script Coverage Results" MODIFIED="1670264978286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
