@@ -33,13 +33,13 @@ def add_SP_noise(im, p):
 def clean_SP_noise_single(im, radius):
     noise_im = im.copy()
     # TODO: add implementation
-    clean_im=scipy.ndimage.median_filter(noise_im,(5,5))
+    clean_im=scipy.ndimage.median_filter(noise_im,(3,3))
     return clean_im
 
 
 def clean_SP_noise_multiple(images):
     # TODO: add implementation
-    clean_image = np.mean(images, axis=0)
+    clean_image = np.median(images, axis=0)
     return clean_image
 
 
@@ -47,6 +47,12 @@ def add_Gaussian_Noise(im, s):
     gaussian_noise_im = im.copy()
     # TODO: add implementation
 
+    # Generate the noise
+    noise = np.random.normal(0, s, im.shape)
+
+    # Add the noise to the image
+    gaussian_noise_im = gaussian_noise_im + noise
+    gaussian_noise_im=np.clip(gaussian_noise_im,0,255)
     return gaussian_noise_im
 
 
