@@ -38,11 +38,17 @@ if __name__ == '__main__':
     # Gaussian noise ----------------------------------------------------------------
     STD=20
     gaussian_noised_im = add_Gaussian_Noise(im, s=STD)
+    clean_im = clean_Gaussian_noise(gaussian_noised_im, 2, 5)
     plt.figure()
     plt.subplot(1, 3, 1)
     plt.imshow(gaussian_noised_im, cmap='gray', vmin=0, vmax=255)
+    plt.title('image + Gaussian noise')
+    plt.subplot(1, 3, 2)
+    plt.imshow(clean_im, cmap='gray', vmin=0, vmax=255)
+    plt.title('cleaned gaussian image')
     plt.show()
 
+    # gaussian_noised_im = add_Gaussian_Noise(im, s=STD)
     # clean_im = clean_Gaussian_noise(gaussian_noised_im, 2, 5)
     # clean_bi_im = clean_Gaussian_noise_bilateral(gaussian_noised_im, 1, 5, 25)
     #

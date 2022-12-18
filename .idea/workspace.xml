@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="q3">
-      <change afterPath="$PROJECT_DIR$/Images/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/myAdd.m" afterDir="false" />
+    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="q4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw3_207931536_208336321.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3_207931536_208336321.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -151,7 +149,9 @@
       <updated>1667666046824</updated>
       <workItem from="1670872381109" duration="3435000" />
       <workItem from="1670915863052" duration="12425000" />
-      <workItem from="1671311862973" duration="303000" />
+      <workItem from="1671311862973" duration="441000" />
+      <workItem from="1671361399705" duration="8995000" />
+      <workItem from="1671398052469" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="q1 and q2">
       <created>1670932108196</created>
@@ -167,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670935037725</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="q4">
+      <created>1671312184334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671312184336</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,11 +194,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="q1 and q2" />
     <MESSAGE value="q3" />
-    <option name="LAST_COMMIT_MESSAGE" value="q3" />
+    <MESSAGE value="q4" />
+    <option name="LAST_COMMIT_MESSAGE" value="q4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hw3_207931536_208336321.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ImageProcessing$hw1_script.coverage" NAME="hw1_script Coverage Results" MODIFIED="1670925554665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1" />
-    <SUITE FILE_PATH="coverage/ImageProcessing$main.coverage" NAME="main Coverage Results" MODIFIED="1671312128837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$main.coverage" NAME="main Coverage Results" MODIFIED="1671398358853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ImageProcessing$hw2_script.coverage" NAME="hw2_script Coverage Results" MODIFIED="1670264978286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
