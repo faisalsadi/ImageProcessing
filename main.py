@@ -1,5 +1,3 @@
-import numpy as np
-
 from hw3_207931536_208336321 import *
 
 
@@ -8,6 +6,7 @@ from hw3_207931536_208336321 import *
 if __name__ == '__main__':
     im = cv2.imread(r'Images\lena.tif')
     im = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
+
 
     # Salt and pepper noise ----------------------------------------------------------------
     n = 50
@@ -39,6 +38,9 @@ if __name__ == '__main__':
     STD=20
     gaussian_noised_im = add_Gaussian_Noise(im, s=STD)
     clean_im = clean_Gaussian_noise(gaussian_noised_im, 2, 5)
+    clean_bi_im = clean_Gaussian_noise_bilateral(gaussian_noised_im, 2, 5, 20)
+
+    # plot
     plt.figure()
     plt.subplot(1, 3, 1)
     plt.imshow(gaussian_noised_im, cmap='gray', vmin=0, vmax=255)
@@ -46,22 +48,8 @@ if __name__ == '__main__':
     plt.subplot(1, 3, 2)
     plt.imshow(clean_im, cmap='gray', vmin=0, vmax=255)
     plt.title('cleaned gaussian image')
-    plt.show()
+    plt.subplot(1, 3, 3)
+    plt.imshow(clean_bi_im, cmap='gray', vmin=0, vmax=255)
+    plt.title('Cleaned using bilateral')
 
-    # gaussian_noised_im = add_Gaussian_Noise(im, s=STD)
-    # clean_im = clean_Gaussian_noise(gaussian_noised_im, 2, 5)
-    # clean_bi_im = clean_Gaussian_noise_bilateral(gaussian_noised_im, 1, 5, 25)
-    #
-    # # plot
-    # plt.figure()
-    # plt.subplot(1, 3, 1)
-    # plt.imshow(gaussian_noised_im, cmap='gray', vmin=0, vmax=255)
-    # plt.title('image + Gaussian noise')
-    # plt.subplot(1, 3, 2)
-    # plt.imshow(clean_im, cmap='gray', vmin=0, vmax=255)
-    # plt.title('cleaned gaussian image')
-    # plt.subplot(1, 3, 3)
-    # plt.imshow(clean_bi_im, cmap='gray', vmin=0, vmax=255)
-    # plt.title('Cleaned using bilateral')
-    #
-    # plt.show()
+    plt.show()

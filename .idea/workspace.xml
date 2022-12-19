@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="q4">
+    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="q5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw3_207931536_208336321.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3_207931536_208336321.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -151,7 +151,10 @@
       <workItem from="1670915863052" duration="12425000" />
       <workItem from="1671311862973" duration="441000" />
       <workItem from="1671361399705" duration="8995000" />
-      <workItem from="1671398052469" duration="324000" />
+      <workItem from="1671398052469" duration="533000" />
+      <workItem from="1671430965412" duration="908000" />
+      <workItem from="1671438854046" duration="954000" />
+      <workItem from="1671444248806" duration="4477000" />
     </task>
     <task id="LOCAL-00001" summary="q1 and q2">
       <created>1670932108196</created>
@@ -174,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671312184336</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="q5">
+      <created>1671398519519</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671398519519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +205,8 @@
     <MESSAGE value="q1 and q2" />
     <MESSAGE value="q3" />
     <MESSAGE value="q4" />
-    <option name="LAST_COMMIT_MESSAGE" value="q4" />
+    <MESSAGE value="q5" />
+    <option name="LAST_COMMIT_MESSAGE" value="q5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -210,7 +221,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ImageProcessing$hw1_script.coverage" NAME="hw1_script Coverage Results" MODIFIED="1670925554665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1" />
-    <SUITE FILE_PATH="coverage/ImageProcessing$main.coverage" NAME="main Coverage Results" MODIFIED="1671398358853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$main.coverage" NAME="main Coverage Results" MODIFIED="1671475698766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ImageProcessing$hw2_script.coverage" NAME="hw2_script Coverage Results" MODIFIED="1670264978286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
