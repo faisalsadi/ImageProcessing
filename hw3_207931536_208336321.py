@@ -32,9 +32,13 @@ def add_SP_noise(im, p):
 
 
 def clean_SP_noise_single(im, radius):
-    noise_im = im.copy()
-    # TODO: add implementation
-    clean_im=scipy.ndimage.median_filter(noise_im,(2*radius+1,2*radius+1))
+    clean_im = im.copy()
+
+    for i in range(radius, im.shape[0] - radius):
+        for j in range(radius, im.shape[1] - radius):
+            clean_im[i][j] = np.median(im[i - radius : i + radius + 1, j - radius : j + radius + 1])
+
+    # return value
     return clean_im
 
 
