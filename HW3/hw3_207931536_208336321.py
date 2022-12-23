@@ -8,29 +8,39 @@ from scipy.signal import convolve2d
 # the copy in the first lines of the function is so that you don't ruin
 # the original image. it will create a new one. 
 
+# def add_SP_noise(im, p):
+#     sp_noise_im = im.copy()
+#     # Set the range of values for the x and y coordinates
+#     # Create a set of all possible pixel coordinates
+#     width, height = np.shape(im)[1], np.shape(im)[0]
+#
+#     # Create a set of all possible pixel coordinates
+#     all_pixels = set((x, y) for x in range(width) for y in range(height))
+#
+#     k = int(p * im.size)  # number of pixels to add noise to
+#     random_pixels = random.sample(all_pixels, k)
+#     white=k/2
+#     # Add noise to the selected pixels
+#     for x, y in random_pixels:
+#         # Set the value of the pixel to 0 or 255 at random
+#         if white > 0:
+#             sp_noise_im[y, x] = 0
+#             white-=1
+#         else:
+#             sp_noise_im[y, x] = 255
+#     return sp_noise_im
 def add_SP_noise(im, p):
     sp_noise_im = im.copy()
-    # Set the range of values for the x and y coordinates
-    # Create a set of all possible pixel coordinates
-    width, height = np.shape(im)[1], np.shape(im)[0]
-
-    # Create a set of all possible pixel coordinates
-    all_pixels = set((x, y) for x in range(width) for y in range(height))
-
-    k = int(p * im.size)  # number of pixels to add noise to
-    random_pixels = random.sample(all_pixels, k)
-    white=k/2
-    # Add noise to the selected pixels
-    for x, y in random_pixels:
-        # Set the value of the pixel to 0 or 255 at random
-        if white > 0:
-            sp_noise_im[y, x] = 0
-            white-=1
-        else:
-            sp_noise_im[y, x] = 255
+    noised_pixels_num=p*(sp_noise_im.shape[0]*sp_noise_im.shape[1])
+    noised_pixels_pos=random.sample(range(im.shape[0]*im.shape[1]),int(noised_pixels_num))
+    sp_noise_im=np.ravel(sp_noise_im)
+    sp_noise_im[noised_pixels_pos[0: int(noised_pixels_num) // 2]] = 0
+    sp_noise_im[noised_pixels_pos[int(noised_pixels_num) // 2:]] = 255
+    sp_noise_im = np.reshape(sp_noise_im, (im.shape[0], im.shape[1]))
     return sp_noise_im
 
 
+    return sp_noise_im
 def clean_SP_noise_single(im, radius):
     clean_im = im.copy()
 

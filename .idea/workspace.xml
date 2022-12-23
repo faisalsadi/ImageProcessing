@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="q5" />
+    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="q5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/hw3_207931536_208336321.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/hw3_207931536_208336321.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +24,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
