@@ -35,10 +35,10 @@ if __name__ == '__main__':
 
 
     # Gaussian noise ----------------------------------------------------------------
-    STD=20
+    STD=15
     gaussian_noised_im = add_Gaussian_Noise(im, s=STD)
     clean_im = clean_Gaussian_noise(gaussian_noised_im, 2, 5)
-    clean_bi_im = clean_Gaussian_noise_bilateral(gaussian_noised_im, 2, 5, 20)
+    clean_bi_im = clean_Gaussian_noise_bilateral(gaussian_noised_im, 1, 5, 25)
 
     # plot
     plt.figure()
