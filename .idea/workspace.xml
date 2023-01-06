@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="q5">
+    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="q6 last">
+      <change afterPath="$PROJECT_DIR$/Homework4/Homework4.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Images/USAflag.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Images/baby.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Images/bears.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Images/cups.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Images/house.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Images/umbrella.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Images/watermelon.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Images/windmill.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/hw4_207931536_208336321.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/hw4_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/faisal/PycharmProjects/ImageProcessing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\faisal\PycharmProjects\ImageProcessing" />
@@ -33,7 +51,7 @@
       <recent name="C:\Users\win10\OneDrive\Desktop\ImageProcessing\HW1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="hw1_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ImageProcessing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,27 +139,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.hw2_script" />
@@ -169,6 +166,15 @@
       <workItem from="1671481942753" duration="717000" />
       <workItem from="1671697115622" duration="3433000" />
       <workItem from="1671757804826" duration="6790000" />
+      <workItem from="1671875088846" duration="1598000" />
+      <workItem from="1671900187697" duration="127000" />
+      <workItem from="1672318851118" duration="215000" />
+      <workItem from="1672479973842" duration="1558000" />
+      <workItem from="1672583046113" duration="8280000" />
+      <workItem from="1672648619910" duration="1174000" />
+      <workItem from="1672688201470" duration="6652000" />
+      <workItem from="1672856416028" duration="5996000" />
+      <workItem from="1672931667235" duration="5361000" />
     </task>
     <task id="LOCAL-00001" summary="q1 and q2">
       <created>1670932108196</created>
@@ -237,5 +243,24 @@
     <MESSAGE value="q6 still needs some fixes" />
     <MESSAGE value="q6 fixed" />
     <option name="LAST_COMMIT_MESSAGE" value="q6 fixed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Homework4/hw4_207931536_208336321.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ImageProcessing$hw3_207931536_208336321.coverage" NAME="hw3_207931536_208336321 Coverage Results" MODIFIED="1671900247859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$hw4_script.coverage" NAME="hw4_script Coverage Results" MODIFIED="1673020130466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework4" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$hw1_script.coverage" NAME="hw1_script Coverage Results" MODIFIED="1671875206834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$main.coverage" NAME="main Coverage Results" MODIFIED="1671900251908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$hw2_script.coverage" NAME="hw2_script Coverage Results" MODIFIED="1672593737693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$hw4_207931536_208336321.coverage" NAME="hw4_207931536_208336321 Coverage Results" MODIFIED="1673012127154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework4" />
   </component>
 </project>
