@@ -47,68 +47,6 @@ dst_points = np.float32([[0, 0],
                         )
 
 
-def cleanImageMean(im, radius, maskSTD):
-    ax = np.linspace(-3 / 2., 3 / 2., 4)
-    gauss = np.exp(-0.5 * np.square(ax) / np.square(5))
-    kernel = np.outer(gauss, gauss)
-    filter = kernel / np.sum(kernel)
-    cleaned_im = convolve2d(im, filter, mode='same')
-    return cleaned_im
-
-
-def histEqualization(im):
-    totalN = im.shape[0] * im.shape[1]
-    h_goal = totalN / 256 * np.ones((256,))
-    ah, ah_goal = ahistImage(im), np.cumsum(h_goal)
-    tm = np.zeros((256,))
-    i, j = 0, 0
-    while i < 256 and j < 256:
-        ac1 = ah[i]
-        ac2 = ah_goal[j]
-        if ac1 <= ac2:
-            tm[i] = j
-            i += 1
-        else:
-            j += 1
-    return tm
-
-
-def ahistImage(im):
-    h = histImage(im)
-    ah = np.cumsum(h)
-    return ah
-
-
-def histImage(im):
-    # loop over image pixels
-    h = np.zeros((256,))
-    for i in range(im.shape[0]):
-        for j in range(im.shape[1]):
-            g = im[i, j]
-            g = int(g)
-            h[g] += 1
-    return h
-
-
-def mapImage(im, tm):
-    # code in one line
-    nim = tm[im.astype(int)].astype(int)
-    return nim
-
-
-def clean_Gaussian_noise(im, radius, maskSTD):
-    # TODO: add implementation
-    # Create a 2D Gaussian kernel with the given std and radius
-    cleaned_im = im.copy()
-    X, Y = np.meshgrid(np.arange(-radius, radius + 1), np.arange(-radius, radius + 1))
-    kernel = np.exp(-(X ** 2 + Y ** 2) / (2 * (maskSTD ** 2)))
-    kernel /= np.sum(kernel)
-    # Convolve the image with the kernel using scipy.signal.convolve2d
-    cleaned_im = convolve2d(cleaned_im.astype(np.float), kernel, mode='same')
-
-    return cleaned_im.astype(np.uint8)
-
-
 def find_transform(pointset1, pointset2):
     x_tag = np.zeros((8, 1))
     A = np.zeros((8, 1))
@@ -168,7 +106,7 @@ def clean_SP_noise_single(im, radius):
 
 
 def clean_baby(im): #three images
-    clean_im = clean_SP_noise_single(im, 1)
+    clean_im=im.copy()
     T1 = find_transform(src_points, dst_points)
     T2 = find_transform(src_points2, dst_points)
     T3 = find_transform(src_points3, dst_points)
@@ -176,16 +114,9 @@ def clean_baby(im): #three images
     T2 = trasnform_image(clean_im, T2)
     T3 = trasnform_image(clean_im, T3)
     clean_im = np.median([T1, T2, T3], axis=0)
-
+    clean_im = clean_SP_noise_single(clean_im, 2)
     return clean_im
 
-
-def clean_baby2(im):# one image
-    clean_im = clean_SP_noise_single(im, 1)
-    T = find_transform(src_points, dst_points)
-    clean_im = trasnform_image(clean_im, T)
-
-    return clean_im
 
 
 def clean_windmill(im):
@@ -227,9 +158,6 @@ def clean_cups(im):
     FFT = np.fft.fftshift(np.fft.fft2(im))
     FFT[108:149, 108:149] = 1.8 * FFT[108:149, 108:149]
     clean_im = np.abs(np.fft.ifft2(np.fft.ifftshift(FFT)))
-    clean_im = cleanImageMean(clean_im, 4, 5)
-    sharpen_kernel = np.array([[-1, -1, -1], [-1, 9, -1], [-1, -1, -1]])
-    clean_im = cv2.filter2D(clean_im, -1, sharpen_kernel)
     return clean_im
 
 
@@ -247,6 +175,7 @@ def clean_bears(im):
     im_min = im.min()
     a = 255 / (im_max - im_min)
     cleaned_im = (a * (im - im_min)).round().astype(int)
+    cleaned_im=np.clip(cleaned_im, 0, 255)
     return cleaned_im
 
 

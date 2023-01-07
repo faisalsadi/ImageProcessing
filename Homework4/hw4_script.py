@@ -1,24 +1,17 @@
 from hw4_207931536_208336321 import *
 
-
 if __name__ == "__main__":
 
     print("-----------------------image 1----------------------\n")
     im1 = cv2.imread(r'Images\baby.tif')
     im1 = cv2.cvtColor(im1, cv2.COLOR_BGR2GRAY)
     im1_clean = clean_baby(im1)
-    im1_clean2 = clean_baby2(im1)
 
     plt.figure()
-    plt.subplot(1,3,1)
+    plt.subplot(1,2,1)
     plt.imshow(im1, cmap='gray', vmin=0, vmax=255)
-    plt.title('original')
-    plt.subplot(1, 3, 2)
+    plt.subplot(1, 2, 2)
     plt.imshow(im1_clean, cmap='gray', vmin=0, vmax=255)
-    plt.title('3 images')
-    plt.subplot(1, 3, 3)
-    plt.imshow(im1_clean2, cmap='gray', vmin=0, vmax=255)
-    plt.title('1 image')
 
     print("-----------------------image 2----------------------\n")
     im2 = cv2.imread(r'Images\windmill.tif')
@@ -103,27 +96,5 @@ if __name__ == "__main__":
     plt.subplot(1, 2, 2)
     plt.imshow(im8_clean, cmap='gray', vmin=0, vmax=255)
 
-    # # an example of how to use fourier transform:
-    # img = cv2.imread(r'Images\umbrella.tif')
-    # img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    #
-    # img_fourier = np.fft.fft2(img)  # fft - remember this is a complex numbers matrix
-    # tst = np.log(abs(img_fourier))
-    # img_fourier = np.fft.fftshift(img_fourier)  # shift so that the DC is in the middle
-    #
-    # plt.figure()
-    # plt.subplot(1, 3, 1)
-    # plt.imshow(img, cmap='gray')
-    # plt.title('original image')
-    #
-    # plt.subplot(1, 3, 2)
-    # plt.imshow(np.log(abs(img_fourier)),
-    #            cmap='gray')  # need to use abs because it is complex, the log is just so that we can see the difference in values with out eyes.
-    # plt.title('fourier transform of image')
-    #
-    # img_inv = np.fft.ifft2(img_fourier)
-    # plt.subplot(1, 3, 3)
-    # plt.imshow(abs(img_inv), cmap='gray')
-    # plt.title('inverse fourier of the fourier transform')
     plt.show()
 

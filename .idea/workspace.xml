@@ -228,15 +228,4 @@
     <MESSAGE value="q6 fixed" />
     <option name="LAST_COMMIT_MESSAGE" value="q6 fixed" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Homework4/hw4_207931536_208336321.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
 </project>
