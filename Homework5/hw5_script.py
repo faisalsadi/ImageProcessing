@@ -37,16 +37,16 @@ if __name__ == "__main__":
     plt.subplot(1, 2, 2)
     plt.imshow(im_circles, cmap='gray')
 
-    # print("-----------------------4. Hough Lines----------------------\n")
-    # im = cv2.imread(r'boxOfchocolates1.tif')
-    # im = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
-    #
-    # plt.figure()
-    # plt.subplot(1, 2, 1)
-    # plt.imshow(im, cmap='gray')
-    #
-    # im_lines = hough_lines(im)
-    # plt.subplot(1, 2, 2)
-    # plt.imshow(im_lines, cmap='gray')
+    print("-----------------------4. Hough Lines----------------------\n")
+    im = cv2.imread(r'boxOfchocolates1.tif')
+    im = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
+
+    plt.figure()
+    plt.subplot(1, 2, 1)
+    plt.imshow(im, cmap='gray')
+
+    im_lines = hough_lines(im)
+    plt.subplot(1, 2, 2)
+    plt.imshow(im_lines, cmap='gray')
 
     plt.show()
