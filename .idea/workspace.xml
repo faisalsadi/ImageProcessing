@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="HW5_almostdone">
+    <list default="true" id="21c141a6-e3cf-4499-b378-28a4883057e9" name="Changes" comment="HW5_q4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework5/hw5_207931536_208336321.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework5/hw5_207931536_208336321.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework5/hw5_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework5/hw5_script.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +175,8 @@
       <workItem from="1673764291474" duration="2711000" />
       <workItem from="1673782670595" duration="11624000" />
       <workItem from="1673892341050" duration="6883000" />
-      <workItem from="1673962932836" duration="3055000" />
+      <workItem from="1673962932836" duration="3454000" />
+      <workItem from="1673971429866" duration="775000" />
     </task>
     <task id="LOCAL-00001" summary="q1 and q2">
       <created>1670932108196</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673800244229</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HW5_q4">
+      <created>1673970976388</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673970976388</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +274,8 @@
     <MESSAGE value="q6 fixed" />
     <MESSAGE value="HW4" />
     <MESSAGE value="HW5_almostdone" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW5_almostdone" />
+    <MESSAGE value="HW5_q4" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW5_q4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -291,7 +299,7 @@
     <SUITE FILE_PATH="coverage/ImageProcessing$hw1_script.coverage" NAME="hw1_script Coverage Results" MODIFIED="1671875206834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1" />
     <SUITE FILE_PATH="coverage/ImageProcessing$main.coverage" NAME="main Coverage Results" MODIFIED="1671900251908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3" />
     <SUITE FILE_PATH="coverage/ImageProcessing$hw5_207931536_208336321.coverage" NAME="hw5_207931536_208336321 Coverage Results" MODIFIED="1673787046499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework5" />
-    <SUITE FILE_PATH="coverage/ImageProcessing$hw5_script.coverage" NAME="hw5_script Coverage Results" MODIFIED="1673970639300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework5" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$hw5_script.coverage" NAME="hw5_script Coverage Results" MODIFIED="1673972190991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework5" />
     <SUITE FILE_PATH="coverage/ImageProcessing$hw2_script.coverage" NAME="hw2_script Coverage Results" MODIFIED="1672593737693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
     <SUITE FILE_PATH="coverage/ImageProcessing$hw4_207931536_208336321.coverage" NAME="hw4_207931536_208336321 Coverage Results" MODIFIED="1673012127154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework4" />
   </component>
