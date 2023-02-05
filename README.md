@@ -12,7 +12,6 @@ Elie Haddad
 # Some results :
 ![Screenshot_20230205_055250](https://user-images.githubusercontent.com/31912809/216830315-83b8857c-e0b5-48e0-ada3-7ab309048ff1.png)
 ![Screenshot_20221218_112002](https://user-images.githubusercontent.com/31912809/216830340-b7a694bd-6e73-44d7-a0fb-5ab7e05ad58d.png)
-![Screenshot_20230115_062206](https://user-images.githubusercontent.com/31912809/216830396-2199b42a-9a5c-40e8-a46a-c84c24eed846.png)
 ![Screenshot_20230117_052359](https://user-images.githubusercontent.com/31912809/216830397-72523cb6-5f48-4883-8205-1fb943bf6083.png)
 
 ![Screenshot_20230101_071119](https://user-images.githubusercontent.com/31912809/216830348-b08d4427-0d5f-4a57-88b7-bfa613e6d2f3.png)
